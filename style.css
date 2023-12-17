@@ -4,7 +4,10 @@
     
 }
 body{
-    background-color: black;
+    background-image: url("./assets/photo-1585773818428-b50bebdc2344.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .top{
     
@@ -51,24 +54,26 @@ li{
     display: flex;
     background-color: rgba(221, 199, 171, 0.567);
     width: 100vh;
+    height: 50vh;
     border-radius: 2vh;
-    margin-left: 5vh;
+    margin-left: 1vh;
 }
 h4{
     color: white;
     font-family: Luckiest Guy;
-    font-size: 2vh;
+    font-size: 23px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
     margin-top: 5vh;
     margin-left: 5vh;
+    text-align: left;
 }
 .serve{
     width: 100vh;
     height: 60vh;
-    margin-left: 74vh;
-    margin-top: -40vh;
+    margin-left: 620px;
+    margin-top: -53vh;
 }
 input{
     width: 300px;

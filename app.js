@@ -20,4 +20,3 @@ input.addEventListener("keypress",function(e){
         fetchdata();
     }
 })
-
