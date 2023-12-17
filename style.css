@@ -7,7 +7,7 @@ body{
     background-image: url("./assets/photo-1585773818428-b50bebdc2344.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    
 }
 .top{
     
@@ -88,4 +88,37 @@ input{
     margin-left: 60vh;
     margin-top: -20vh;
     border-radius: 2vh;
+}
+#random{
+   margin-left: 570px;
+   margin-top: -80px;
+}
+.ranhead{
+    font-size: 50px;
+    margin-left: 150px;
+}
+#image{
+    width: 270px;
+    height: 300px;
+    border-radius: 30px;
+   box-shadow: 10px 10px 10px black;
+
+}
+.category{
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.name{
+    margin-right: 100px;
+    color: white;
+    font-family: Luckiest Guy;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
 }
