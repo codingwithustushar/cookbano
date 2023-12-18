@@ -54,9 +54,10 @@ li{
     display: flex;
     background-color: rgba(221, 199, 171, 0.567);
     width: 100vh;
-    height: 50vh;
+    /* height: 50vh; */
     border-radius: 2vh;
     margin-left: 1vh;
+    position: relative;
 }
 h4{
     color: white;
@@ -72,8 +73,8 @@ h4{
 .serve{
     width: 100vh;
     height: 60vh;
-    margin-left: 620px;
-    margin-top: -53vh;
+    left: 42vw;
+    position: absolute;
 }
 input{
     width: 300px;
@@ -86,7 +87,7 @@ input{
     text-align: center;
     background-color: rgb(240, 255, 255);
     margin-left: 60vh;
-    margin-top: -20vh;
+    margin-top: 5vh;
     border-radius: 2vh;
 }
 #random{

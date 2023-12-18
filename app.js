@@ -13,6 +13,7 @@ async function fetchRandomMeal() {
       <h4 class="category">${meal.strCategory}</h4>
       <img src="${meal.strMealThumb}" id="image"/>
       <h3 class="name">${meal.strMeal} </h3>
+      
       `;
     } catch (error) {
       console.log(error);
@@ -27,7 +28,13 @@ async function fetchdata(food){
     let data = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${food}`);
 
     let res = await data.json();
+    // const dish = res.dish[0];
     console.log(res);
+
+    // const dishdetails = document.getElementById("dish");
+    // dishdetails.innerHTML = `
+    // <h4 class="category">${meal.strCategory}</h4>
+    // `
     
  }
  catch(error){
